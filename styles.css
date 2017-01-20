@@ -1,20 +1,24 @@
 
+*{
+	box-sizing: border-box;
+}
 div { font-family: "Comic Sans MS", cursive, sans-serif;
 	background-color: grey;
 	width:30%;
 	border: 2px solid black;
 	float:left;
-	height:300px;
 	padding-left: 10px;
 	margin: 10px;
+
 }
 
 #p1{position: relative;
-	left:74.5%;
+	left:75%;
 	border: 2px solid black;
 	width:25%;
 	background:pink;
-	text-align: center;
+	text-align:center;
+
 
 }
 #p2{position: relative;
