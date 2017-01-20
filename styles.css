@@ -1,4 +1,9 @@
 
+h1{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 175%;
+}
 *{
 	box-sizing: border-box;
 }
@@ -9,6 +14,7 @@ div { font-family: "Comic Sans MS", cursive, sans-serif;
 	float:left;
 	padding-left: 10px;
 	margin: 10px;
+	overflow: auto;
 
 }
 
@@ -18,6 +24,7 @@ div { font-family: "Comic Sans MS", cursive, sans-serif;
 	width:25%;
 	background:pink;
 	text-align:center;
+	overflow: auto;
 
 
 }
@@ -28,6 +35,7 @@ div { font-family: "Comic Sans MS", cursive, sans-serif;
 	background:brown;
 	color: white;
 	text-align: center;
+	overflow: auto;
 }
 #p3{position: relative;
 	left:74.5%;
@@ -35,5 +43,6 @@ div { font-family: "Comic Sans MS", cursive, sans-serif;
 	width:25%;
 	background:orange;
 	text-align: center;
+	overflow: auto;
 }
 	
