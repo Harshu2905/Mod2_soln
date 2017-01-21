@@ -14,7 +14,37 @@ div { font-family: "Comic Sans MS", cursive, sans-serif;
 	float:left;
 	padding-left: 10px;
 	margin: 10px;
-	overflow: auto;
+	
+	clear: right;
+
+}
+
+
+@media(min-width: 768px) and (max-width: 991px)
+{#t1{
+	width: 47%;
+	float:left;
+}
+#t2{
+	width: 47%;
+	float: left;
+}
+#t3{
+	width:97%;
+	float:left;
+	}
+}
+@media(max-width: 767px)
+{#t1
+	{width:97%;
+	float: left;
+}
+#t2{width:97%;
+	float: left;
+}
+#t3{width: 97%;
+	float: left;
+}
 
 }
 
@@ -24,7 +54,6 @@ div { font-family: "Comic Sans MS", cursive, sans-serif;
 	width:25%;
 	background:pink;
 	text-align:center;
-	overflow: auto;
 
 
 }
@@ -35,7 +64,7 @@ div { font-family: "Comic Sans MS", cursive, sans-serif;
 	background:brown;
 	color: white;
 	text-align: center;
-	overflow: auto;
+	
 }
 #p3{position: relative;
 	left:74.5%;
@@ -43,6 +72,6 @@ div { font-family: "Comic Sans MS", cursive, sans-serif;
 	width:25%;
 	background:orange;
 	text-align: center;
-	overflow: auto;
+	
 }
 	
